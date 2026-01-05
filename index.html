@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temporada de Cerezas 🍒 | Experiencias de Lujo</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,600&family=Pinyon+Script&family=Montserrat:wght@300;600&family=Oswald:wght@500&family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+    <style>
+        :root { --cherry: #7a0019; --gold: #d4af37; --bg: #120305; --coral: #FF7F50; }
+        body, html { margin: 0; padding: 0; background: var(--bg); color: #fff; font-family: 'Montserrat', sans-serif; overflow-x: hidden; min-height: 100%; }
+
+        #curtain {
+            position: fixed; inset: 0; z-index: 2000;
+            background: radial-gradient(circle at center, #3d000d 0%, var(--bg) 100%);
+            display: flex; flex-direction: column; justify-content: center; align-items: center;
+        }
+        .cherry-title { font-family: 'Pinyon Script', cursive; font-size: 5.5rem; color: var(--gold); margin-bottom: 50px; text-shadow: 0 0 20px rgba(212,175,55,0.2); text-align: center; line-height: 1; }
+        .ribbon-container { width: 100%; height: 80px; position: relative; cursor: pointer; display: flex; }
+        .ribbon-half { width: 50%; height: 100%; background: linear-gradient(to bottom, #b8860b, #f4e1c1, #b8860b); box-shadow: 0 5px 20px rgba(0,0,0,0.5); display: flex; align-items: center; justify-content: center; }
+        .ribbon-left { border-radius: 0 5px 5px 0; justify-content: flex-end; padding-right: 10px; }
+        .ribbon-right { border-radius: 5px 0 0 5px; justify-content: flex-start; padding-left: 10px; }
+        .ribbon-text { color: var(--cherry); font-weight: 800; letter-spacing: 4px; font-size: 0.75rem; white-space: nowrap; }
+
+        #main-content { display: none; opacity: 0; padding: 120px 20px 100px 20px; min-height: 100vh; box-sizing: border-box; }
+        .glass-nav { position: fixed; top: 0; width: 100%; padding: 20px 40px; backdrop-filter: blur(25px); -webkit-backdrop-filter: blur(25px); border-bottom: 1px solid rgba(255,255,255,0.1); display: flex; justify-content: space-between; align-items: center; z-index: 1000; box-sizing: border-box; }
+        .showroom { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 40px; max-width: 1200px; margin: auto; }
+        .card { height: 500px; border-radius: 40px; overflow: hidden; background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.1); position: relative; transform: translateY(50px); opacity: 0; transition: transform 0.4s; cursor: pointer; }
+        .card:hover { transform: translateY(-10px) !important; border-color: var(--gold); }
+        .card-img { width: 100%; height: 100%; object-fit: cover; filter: brightness(0.6); transition: 0.5s; }
+        .card:hover .card-img { transform: scale(1.1); filter: brightness(0.8); }
+        
+        #petal-container { position: fixed; inset: 0; pointer-events: none; z-index: 1500; }
+        .petal { position: absolute; background: #ffccd5; border-radius: 150% 0 150% 0; box-shadow: 0 0 5px rgba(255,204,213,0.5); }
+    </style>
+</head>
+<body>
+    <div id="curtain">
+        <h1 class="cherry-title">Temporada de Cerezas</h1>
+        <div class="ribbon-container" onclick="inaugurar()">
+            <div class="ribbon-half ribbon-left"><span class="ribbon-text">TOCA PARA</span></div>
+            <div class="ribbon-half ribbon-right"><span class="ribbon-text">INAUGURAR</span></div>
+        </div>
+        <p style="margin-top: 40px; font-family: 'Cormorant Garamond'; color: var(--gold); font-style: italic;">Exclusividad en su máxima expresión</p>
+    </div>
+    <div id="petal-container"></div>
+    <div id="main-content">
+        <nav class="glass-nav">
+            <span style="font-family: 'Pinyon Script'; font-size: 2rem; color: var(--gold);">Temporada de Cerezas</span>
+            <i class="fas fa-bars" style="color: var(--gold);"></i>
+        </nav>
+        <div class="showroom">
+            
+            <div class="card" onclick="location.href='ejemplos/flayer_lael/index.html'">
+                <img src="ejemplos/flayer_lael/assets/foto1.jpg" onerror="this.src='https://images.unsplash.com/photo-1519834785169-98be25ec3f84?auto=format&fit=crop&w=800&q=80'" class="card-img" style="filter: brightness(0.8) sepia(0.3);">
+                <div style="position: absolute; bottom: 30px; left: 30px;">
+                    <span style="background: var(--coral); color: #fff; padding: 5px 15px; border-radius: 20px; font-size: 0.7rem; font-weight: bold;">CAUSA NOBLE</span>
+                    <h2 style="font-family: 'Dancing Script', cursive; font-size: 2.5rem; color: var(--gold); margin: 10px 0;">Rifa de Lael</h2>
+                    <p style="font-size: 0.9rem; opacity: 1; color: #fff; font-weight: bold;">¡Mañana es el día! Gracias ❤️</p>
+                </div>
+            </div>
+
+            <div class="card" onclick="location.href='ejemplos/boda_elegante/index.html'"><img src="https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=800&q=80" class="card-img"><div style="position: absolute; bottom: 30px; left: 30px;"><span style="background: var(--cherry); color: white; padding: 5px 15px; border-radius: 20px; font-size: 0.7rem;">BODAS ELITE</span><h2 style="font-family: 'Cormorant Garamond'; font-size: 2.2rem; color: var(--gold); margin: 10px 0;">Sofía & Alejandro</h2></div></div>
+            <div class="card" onclick="location.href='ejemplos/xv_neon/index.html'"><img src="https://images.unsplash.com/photo-1533174072545-7a4b6ad7a6c3?auto=format&fit=crop&w=800&q=80" class="card-img"><div style="position: absolute; bottom: 30px; left: 30px;"><span style="background: #ff00ff; color: white; padding: 5px 15px; border-radius: 20px; font-size: 0.7rem; font-weight: bold;">XV AÑOS</span><h2 style="font-family: 'Poppins', sans-serif; font-size: 2.2rem; color: #00ffff; margin: 10px 0;">Neon Party</h2></div></div>
+            <div class="card" onclick="location.href='ejemplos/bautizo_nubes/index.html'"><img src="https://images.unsplash.com/photo-1519689680058-324335c77eba?auto=format&fit=crop&w=800&q=80" class="card-img"><div style="position: absolute; bottom: 30px; left: 30px;"><span style="background: #89CFF0; color: #333; padding: 5px 15px; border-radius: 20px; font-size: 0.7rem; font-weight: bold;">BAUTIZOS</span><h2 style="font-family: 'Cormorant Garamond'; font-size: 2.2rem; color: #fff; margin: 10px 0;">Lucas</h2></div></div>
+            <div class="card" onclick="location.href='ejemplos/villa_montana/index.html'"><img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?auto=format&fit=crop&w=800&q=80" class="card-img"><div style="position: absolute; bottom: 30px; left: 30px;"><span style="background: #ffae00; color: #000; padding: 5px 15px; border-radius: 20px; font-size: 0.7rem; font-weight: bold;">BIENES RAÍCES</span><h2 style="font-family: 'Oswald', sans-serif; font-size: 2.2rem; color: #fff; margin: 10px 0;">Villa Montaña</h2></div></div>
+        </div>
+    </div>
+    <script>
+        function inaugurar() {
+            const tl = gsap.timeline();
+            tl.to(".ribbon-left", { x: '-100%', rotation: -10, duration: 1.2, ease: "power2.in" })
+              .to(".ribbon-right", { x: '100%', rotation: 10, duration: 1.2, ease: "power2.in" }, "-=1.2")
+              .to("#curtain", { opacity: 0, duration: 1, ease: "none" }, "-=0.5")
+              .set("#curtain", { display: "none" }).set("#main-content", { display: "block" })
+              .to("#main-content", { opacity: 1, duration: 0.5 })
+              .to(".card", { y: 0, opacity: 1, duration: 1, stagger: 0.2, ease: "back.out(1.7)" })
+              .call(() => { document.body.style.overflow = "auto"; document.documentElement.style.overflow = "auto"; lanzarPetalos(); });
+        }
+        function lanzarPetalos() {
+            const container = document.getElementById('petal-container');
+            for(let i=0; i<60; i++) {
+                const p = document.createElement('div'); p.className = 'petal';
+                const size = Math.random()*15 + 10 + 'px'; p.style.width = size; p.style.height = size;
+                p.style.left = Math.random()*100 + 'vw'; p.style.top = '-20px'; container.appendChild(p);
+                gsap.to(p, { y: '110vh', x: '+='+(Math.random()*200-100), rotation: 720, duration: Math.random()*3+2, repeat: -1, ease: "none", delay: Math.random()*2 });
+            }
+        }
+    </script>
+</body>
+</html>

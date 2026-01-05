@@ -1,0 +1,69 @@
+/* --- VARIABLES GLOBALES --- */
+:root { --cherry: #7a0019; --cherry-dark: #1a0509; --gold: #d4af37; --paper: #fffcf9; }
+
+/* --- BASE --- */
+body, html { margin: 0; padding: 0; background: var(--cherry-dark); font-family: 'Montserrat', sans-serif; overflow-x: hidden; }
+
+/* --- COMPONENTES UI: BOTÓN CEREZA --- */
+.quality-seal {
+    position: fixed; top: 25px; right: 25px; width: 50px; height: 50px;
+    background: linear-gradient(135deg, #fff, #f4e1c1); border-radius: 50%; display: flex; justify-content: center; align-items: center;
+    box-shadow: 0 4px 20px rgba(212,175,55,0.3); border: 2px solid var(--gold); z-index: 5000; font-size: 1.4rem;
+    cursor: pointer; transition: transform 0.3s;
+}
+.quality-seal:hover { transform: scale(1.1) rotate(10deg); }
+
+/* --- COMPONENTES UI: SOBRE --- */
+#envelope-wrapper {
+    position: fixed; inset: 0; display: flex; justify-content: center; align-items: center; z-index: 3000; 
+    background: radial-gradient(circle, #2a0810 0%, var(--cherry-dark) 100%);
+}
+.envelope {
+    width: 90%; max-width: 400px; height: 300px; background: linear-gradient(135deg, var(--cherry), #5a0012); border-radius: 12px;
+    position: relative; box-shadow: 0 30px 70px rgba(0,0,0,0.6); display: flex; justify-content: center; align-items: center; border: 1px solid rgba(212,175,55,0.2);
+}
+.wax-seal {
+    width: 100px; height: 100px; background: radial-gradient(circle, #d4af37, #996515);
+    border-radius: 50%; border: 3px solid #f9e4b7; cursor: pointer;
+    display: flex; justify-content: center; align-items: center; font-family: 'Pinyon Script';
+    font-size: 2.8rem; color: var(--cherry-dark); text-shadow: 0 1px 2px rgba(255,255,255,0.3); z-index: 10; transition: transform 0.3s;
+}
+.wax-seal:hover { transform: scale(1.05); }
+
+/* --- LAYOUT INVITACIÓN --- */
+#invitation-content { display: block; position: relative; z-index: 1; opacity: 0; background: var(--paper); }
+.parallax-hero {
+    height: 100vh; position: relative; overflow: hidden; display: flex; justify-content: center; align-items: center; background: var(--cherry-dark);
+}
+.hero-bg {
+    position: absolute; top: 0; left: 0; width: 100%; height: 130%;
+    background: linear-gradient(to bottom, rgba(122,0,25,0.4), rgba(26,5,9,0.8)), url('https://images.unsplash.com/photo-1511795409834-ef04bbd61622?auto=format&fit=crop&w=1200&q=80');
+    background-size: cover; background-position: center; z-index: -1;
+}
+.names { 
+    font-family: 'Pinyon Script', cursive; font-size: clamp(3.5rem, 12vw, 6.5rem); 
+    background: linear-gradient(to right, #fff, #f4e1c1); -webkit-background-clip: text; -webkit-text-fill-color: transparent; filter: drop-shadow(0 5px 15px rgba(0,0,0,0.3));
+}
+
+/* --- SECCIONES Y UTILIDADES --- */
+.section-container { padding: 80px 20px; text-align: center; border-bottom: 1px solid rgba(0,0,0,0.05); }
+.section-title { font-family: 'Cormorant Garamond'; font-size: 3rem; color: var(--cherry); margin-bottom: 40px; font-style: italic; }
+.btn-gold {
+    display: inline-block; padding: 15px 40px; background: var(--cherry); color: var(--gold);
+    text-decoration: none; border: 1px solid var(--gold); font-weight: 700; letter-spacing: 2px;
+    transition: 0.3s; box-shadow: 0 5px 15px rgba(122,0,25,0.2);
+}
+.btn-gold:hover { background: var(--gold); color: var(--cherry); transform: translateY(-3px); }
+
+/* --- Dress Code & Gifts --- */
+.dress-code-grid { display: flex; justify-content: center; gap: 40px; flex-wrap: wrap; margin-top: 30px; }
+.dress-item i { font-size: 3rem; color: var(--gold); margin-bottom: 15px; }
+.color-palette { display: flex; justify-content: center; gap: 15px; margin-top: 20px; }
+.color-dot { width: 30px; height: 30px; border-radius: 50%; border: 1px solid #ddd; position: relative; }
+.color-dot.forbidden::after { content: '✕'; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); color: var(--cherry); font-size: 1.2rem; font-weight: bold; }
+.gift-cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; max-width: 900px; margin: auto; }
+.gift-card { background: white; border: 1px solid #eee; padding: 30px; border-radius: 15px; transition: 0.3s; cursor: pointer; }
+.gift-card:hover { transform: translateY(-5px); box-shadow: 0 10px 30px rgba(0,0,0,0.1); border-color: var(--gold); }
+.gift-icon { font-size: 2.5rem; color: var(--cherry); margin-bottom: 15px; }
+.bank-details { display: none; margin-top: 15px; font-size: 0.9rem; background: #f9f9f9; padding: 10px; border-radius: 5px; }
+.anim-item { opacity: 0; transform: translateY(30px); }

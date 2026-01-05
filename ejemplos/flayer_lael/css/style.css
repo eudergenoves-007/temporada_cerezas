@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Montserrat:wght@300;600;800&display=swap');
+
+:root { --rojo-amor: #E63946; --rosa-suave: #FFE5E5; --oro: #D4AF37; --texto: #2B2D42; }
+
+body {
+    margin: 0; background: #fff0f3; color: var(--texto); font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+}
+
+/* HERO SECTION CON PARALAJE */
+.hero {
+    height: 80vh; position: relative; display: flex; flex-direction: column; justify-content: center; align-items: center;
+    text-align: center; overflow: hidden; color: white;
+}
+.hero-bg {
+    position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: -1;
+    filter: brightness(0.6); object-fit: cover;
+}
+.hero-content { z-index: 10; padding: 20px; }
+
+h1 { font-family: 'Dancing Script', cursive; font-size: 4.5rem; margin: 0; text-shadow: 0 4px 10px rgba(0,0,0,0.3); }
+.badge { background: var(--oro); color: #000; padding: 5px 15px; border-radius: 20px; font-weight: bold; text-transform: uppercase; letter-spacing: 2px; font-size: 0.8rem; }
+
+/* SECCIÓN AGRADECIMIENTO */
+.section-thanks { padding: 60px 20px; text-align: center; background: white; }
+.photo-strip {
+    display: flex; gap: 10px; overflow-x: auto; padding: 20px 0;
+    scroll-snap-type: x mandatory; -webkit-overflow-scrolling: touch;
+}
+.strip-item {
+    min-width: 200px; height: 250px; border-radius: 15px; overflow: hidden;
+    scroll-snap-align: center; box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+.strip-item img { width: 100%; height: 100%; object-fit: cover; }
+
+/* SECCIÓN VENTA FASE 2 (LA JOYA) */
+.section-sale {
+    background: linear-gradient(135deg, var(--rojo-amor), #ff8fa3);
+    color: white; padding: 80px 20px; text-align: center; position: relative;
+}
+.ticket-card {
+    background: rgba(255,255,255,0.15); backdrop-filter: blur(10px);
+    border: 2px solid rgba(255,255,255,0.3); border-radius: 30px;
+    padding: 40px 20px; max-width: 500px; margin: 0 auto;
+    box-shadow: 0 20px 50px rgba(0,0,0,0.2);
+}
+.price { font-size: 4rem; font-weight: 800; margin: 20px 0; text-shadow: 0 5px 15px rgba(0,0,0,0.2); }
+.date-love { font-family: 'Dancing Script'; font-size: 2.5rem; color: var(--rosa-suave); }
+
+/* BOTÓN PULSANTE */
+.btn-donate {
+    background: white; color: var(--rojo-amor); font-size: 1.2rem; font-weight: bold;
+    padding: 20px 40px; border-radius: 50px; text-decoration: none; display: inline-block;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2); transition: transform 0.3s;
+    animation: heartbeat 1.5s infinite; margin-top: 30px;
+}
+@keyframes heartbeat {
+    0% { transform: scale(1); } 15% { transform: scale(1.1); } 30% { transform: scale(1); }
+    45% { transform: scale(1.1); } 60% { transform: scale(1); }
+}
+
+.floating-hearts { position: absolute; top: 0; left: 0; width: 100%; height: 100%; pointer-events: none; }

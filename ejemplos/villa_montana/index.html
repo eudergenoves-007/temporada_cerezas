@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Villa Montaña | Jaguar Market Elite</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        /* CORRECCIÓN 1: Botón de sonido en 'Capa de Dios' (z-index 9999) */
+        .sound-toggle {
+            position: fixed; top: 20px; right: 20px; z-index: 9999;
+            background: rgba(0,0,0,0.6); border: 2px solid var(--gold);
+            color: var(--gold); width: 50px; height: 50px; border-radius: 50%;
+            display: flex; justify-content: center; align-items: center; cursor: pointer;
+            transition: 0.3s;
+            box-shadow: 0 0 20px rgba(0,0,0,0.5); /* Sombra para resaltar */
+        }
+        .sound-toggle:hover { background: var(--gold); color: #000; transform: scale(1.1); }
+        .sound-wave { animation: pulse 1s infinite; }
+        @keyframes pulse { 0% { transform: scale(1); } 50% { transform: scale(1.2); } 100% { transform: scale(1); } }
+        
+        /* CORRECCIÓN 2: Asegurar que la imagen se vea al inicio */
+        #heroImg { opacity: 1; transition: opacity 0.5s; }
+    </style>
+</head>
+<body>
+
+    <audio id="jungleAudio" loop>
+        <source src="assets/selva_ambiente.mp3" type="audio/mpeg">
+    </audio>
+
+    <div class="sound-toggle" onclick="toggleAudio()">
+        <i class="fas fa-volume-mute" id="soundIcon"></i>
+    </div>
+
+    <div class="video-layer" style="z-index: -2;">
+        <img id="heroImg" src="assets/montaña_inicio.jpg" style="width: 100%; height: 100%; object-fit: cover;">
+    </div>
+
+    <div class="video-layer" style="z-index: -1;">
+        <video id="droneVideo" src="assets/drone_optimizado.mp4" playsinline muted preload="auto" style="opacity: 0;"></video>
+    </div>
+
+    <section class="story-section section-intro">
+        <h1 class="hero-title">VILLA<br><span style="color: var(--gold);">MONTAÑA</span></h1>
+        <p class="hero-subtitle">TERRITORIO JAGUAR</p>
+        <div style="margin-top: 50px; animation: bounce 2s infinite; text-shadow: 0 2px 5px #000;">⬇ Desliza para volar</div>
+    </section>
+
+    <div style="height: 60vh;"></div>
+
+    <section class="story-section" id="trigger1">
+        <div class="rommel-box left" id="rommel1">
+            <img src="assets/jaguar_frente.png" onerror="this.src='assets/jaguar_frente.jpg'" class="rommel-img">
+            <div class="speech-bubble">
+                "¡Bienvenido a mi territorio! Escucha la paz de la selva..."
+            </div>
+        </div>
+    </section>
+
+    <div style="height: 100vh;"></div>
+
+    <section class="story-section" id="trigger2">
+        <div class="rommel-box right" id="rommel2">
+            <div class="speech-bubble">
+                "¡Desde aquí la vista es eterna! El lugar perfecto para tu cabaña."
+            </div>
+            <img src="assets/jaguar_perfil.png" onerror="this.src='assets/jaguar_perfil.jpg'" class="rommel-img">
+        </div>
+    </section>
+
+    <section class="story-section map-section">
+        <h2 style="font-family: 'Oswald'; font-size: 4rem; margin: 0;">TU LEGADO</h2>
+        <p style="font-size: 1.5rem;">Lotes desde 500m²</p>
+        
+        <a href="https://wa.me/5219619702540?text=Hola%20Rommel,%20vi%20el%20vuelo%20de%20Villa%20Montaña%20y%20me%20interesa%20un%20lote." class="btn-jaguar" target="_blank">
+            <i class="fab fa-whatsapp"></i> COTIZAR CON ROMMEL
+        </a>
+        
+        <div style="margin-top: 50px; display: flex; flex-direction: column; align-items: center;">
+            <div style="width: 80px; height: 80px; border-radius: 50%; overflow: hidden; border: 3px solid #fff; box-shadow: 0 5px 15px rgba(0,0,0,0.5);">
+                <img src="assets/jaguar_frente.png" onerror="this.src='assets/jaguar_frente.jpg'" style="width: 100%; height: 100%; object-fit: cover;">
+            </div>
+            <p style="font-size: 0.9rem; margin-top: 10px; font-weight: bold;">Jaguar Market Elite 🐆</p>
+        </div>
+    </section>
+
+    <script src="js/logic.js"></script>
+    <script>
+        // Lógica de Audio Robusta
+        function toggleAudio() {
+            const audio = document.getElementById('jungleAudio');
+            const icon = document.getElementById('soundIcon');
+            
+            if (audio.paused) {
+                audio.play().catch(e => console.log("Interacción requerida para audio"));
+                icon.className = "fas fa-volume-up sound-wave";
+            } else {
+                audio.pause();
+                icon.className = "fas fa-volume-mute";
+            }
+        }
+    </script>
+    <style>@keyframes bounce { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(10px); } }</style>
+</body>
+</html>
