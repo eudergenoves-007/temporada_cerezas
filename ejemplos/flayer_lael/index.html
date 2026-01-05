@@ -8,12 +8,21 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <style>
+        /* Estilo extra para el botón secundario */
+        .btn-web {
+            background: transparent; border: 2px solid white; color: white;
+            font-size: 1rem; font-weight: bold; padding: 15px 30px; border-radius: 50px;
+            text-decoration: none; display: inline-block; margin-top: 15px;
+            transition: 0.3s;
+        }
+        .btn-web:hover { background: white; color: var(--rojo-amor); transform: scale(1.05); }
+    </style>
 </head>
 <body>
 
     <header class="hero">
         <img src="assets/foto1.jpg" onerror="this.src='https://images.unsplash.com/photo-1519834785169-98be25ec3f84?auto=format&fit=crop&w=800&q=80'" class="hero-bg">
-        
         <div class="hero-content fade-up">
             <span class="badge">Causa Noble</span>
             <h1>Por la Sonrisa de Lael</h1>
@@ -24,17 +33,10 @@
     <section class="section-thanks">
         <h2 class="fade-up" style="color: var(--rojo-amor);">¡Gracias por la Fase 1!</h2>
         <p class="fade-up" style="max-width: 600px; margin: 10px auto; color: #666;">
-            Mañana celebramos el primer paso. Gracias a cada corazón que se sumó. Aquí un poco de nuestra historia:
+            Mañana celebramos el primer paso. Gracias a cada corazón que se sumó.
         </p>
-        
         <div class="photo-strip fade-up">
-            <div class="strip-item"><img src="assets/foto1.jpg" loading="lazy"></div>
-            <div class="strip-item"><img src="assets/foto2.jpg" loading="lazy"></div>
-            <div class="strip-item"><img src="assets/foto3.jpg" loading="lazy"></div>
-            <div class="strip-item"><img src="assets/foto4.jpg" loading="lazy"></div>
-            <div class="strip-item"><img src="assets/foto5.jpg" loading="lazy"></div>
-            <div class="strip-item"><img src="assets/terreno1.jpg" loading="lazy"></div>
-            <div class="strip-item"><img src="assets/terreno2.jpg" loading="lazy"></div>
+            <div id="gallery-container" style="display:flex; gap:10px;"></div>
         </div>
     </section>
 
@@ -42,7 +44,6 @@
         <div class="floating-hearts">
             <i class="fas fa-heart" style="position:absolute; top:10%; left:10%; opacity:0.3; font-size:2rem;"></i>
             <i class="fas fa-heart" style="position:absolute; top:20%; right:15%; opacity:0.2; font-size:3rem;"></i>
-            <i class="fas fa-heart" style="position:absolute; bottom:15%; left:20%; opacity:0.4; font-size:1.5rem;"></i>
         </div>
 
         <div class="ticket-card fade-up">
@@ -51,11 +52,15 @@
             <p>Regala esperanza y amor. Participa en la <strong>Segunda Fase</strong>.</p>
             
             <div class="price">$100 <span style="font-size: 1rem; vertical-align: middle;">MXN</span></div>
-            
             <p style="font-size: 0.9rem; opacity: 0.9;">🎟️ Boleto Solidario | Gran Rifa</p>
             
-            <a href="https://wa.me/5219619702540?text=Hola,%20quiero%20apoyar%20a%20Lael%20en%20la%20Fase%202%20del%2014%20de%20Febrero.%20Quiero%20boletos%20❤️" class="btn-donate">
-                <i class="fab fa-whatsapp"></i> COMPRAR BOLETO
+            <a href="https://wa.me/5219619702540?text=Hola,%20quiero%20apoyar%20a%20Lael%20en%20la%20Fase%202.%20Quiero%20boletos%20❤️" class="btn-donate">
+                <i class="fab fa-whatsapp"></i> PEDIR INFORMES
+            </a>
+            <br>
+            
+            <a href="https://rifa-elite.onrender.com/?hl=es-MX" class="btn-web" target="_blank">
+                <i class="fas fa-globe"></i> COMPRAR EN LÍNEA
             </a>
         </div>
         
@@ -63,5 +68,16 @@
     </section>
 
     <script src="js/logic.js"></script>
+    <script>
+        // Script simple para repoblar la galería si se borró
+        const container = document.getElementById('gallery-container');
+        const images = ['foto1.jpg', 'foto2.jpg', 'foto3.jpg', 'foto4.jpg', 'foto5.jpg', 'terreno1.jpg'];
+        images.forEach(img => {
+            const div = document.createElement('div');
+            div.className = 'strip-item';
+            div.innerHTML = `<img src="assets/${img}" onerror="this.style.display='none'">`;
+            container.appendChild(div);
+        });
+    </script>
 </body>
 </html>
