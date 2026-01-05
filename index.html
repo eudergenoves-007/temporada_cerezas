@@ -7,64 +7,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,600&family=Pinyon+Script&family=Montserrat:wght@300;600&family=Oswald:wght@500&family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
-    <style>
-        :root { --cherry: #7a0019; --gold: #d4af37; --bg: #120305; --coral: #FF7F50; }
-        body, html { margin: 0; padding: 0; background: var(--bg); color: #fff; font-family: 'Montserrat', sans-serif; overflow-x: hidden; min-height: 100%; }
-
-        /* ESTILOS BASE (Mismos de siempre) */
-        #curtain { position: fixed; inset: 0; z-index: 2000; background: radial-gradient(circle at center, #3d000d 0%, var(--bg) 100%); display: flex; flex-direction: column; justify-content: center; align-items: center; }
-        .cherry-title { font-family: 'Pinyon Script', cursive; font-size: 5.5rem; color: var(--gold); margin-bottom: 50px; text-shadow: 0 0 20px rgba(212,175,55,0.2); text-align: center; line-height: 1; }
-        .ribbon-container { width: 100%; height: 80px; position: relative; cursor: pointer; display: flex; }
-        .ribbon-half { width: 50%; height: 100%; background: linear-gradient(to bottom, #b8860b, #f4e1c1, #b8860b); display: flex; align-items: center; justify-content: center; }
-        .ribbon-left { border-radius: 0 5px 5px 0; justify-content: flex-end; padding-right: 10px; }
-        .ribbon-right { border-radius: 5px 0 0 5px; justify-content: flex-start; padding-left: 10px; }
-        .ribbon-text { color: var(--cherry); font-weight: 800; letter-spacing: 4px; font-size: 0.75rem; white-space: nowrap; }
-
-        #main-content { display: none; opacity: 0; padding: 120px 20px 100px 20px; min-height: 100vh; box-sizing: border-box; }
-        .glass-nav { position: fixed; top: 0; width: 100%; padding: 20px 40px; backdrop-filter: blur(25px); border-bottom: 1px solid rgba(255,255,255,0.1); display: flex; justify-content: space-between; align-items: center; z-index: 1000; box-sizing: border-box; }
-        .showroom { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 40px; max-width: 1200px; margin: auto; }
-        .card { height: 500px; border-radius: 40px; overflow: hidden; background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.1); position: relative; transform: translateY(50px); opacity: 0; cursor: pointer; }
-        .card-img { width: 100%; height: 100%; object-fit: cover; filter: brightness(0.6); transition: 0.5s; }
-        
-        /* BOTÓN FLOTANTE */
-        .btn-pricing {
-            position: fixed; bottom: 30px; right: 30px; z-index: 1500;
-            background: var(--gold); color: #000; padding: 15px 30px; border-radius: 50px;
-            font-weight: bold; cursor: pointer; box-shadow: 0 0 20px rgba(212,175,55,0.4);
-            display: none; animation: float 3s infinite ease-in-out;
-        }
-        @keyframes float { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-10px); } }
-
-        /* MODAL DE PRECIOS */
-        #pricing-modal {
-            position: fixed; inset: 0; background: rgba(0,0,0,0.95); z-index: 3000;
-            display: none; justify-content: center; align-items: center; opacity: 0; overflow-y: auto;
-        }
-        .pricing-content {
-            background: #121212; border: 1px solid var(--gold); border-radius: 20px;
-            padding: 40px; max-width: 900px; width: 90%; text-align: center; position: relative; margin: auto;
-        }
-        .close-modal { position: absolute; top: 20px; right: 20px; color: #fff; font-size: 1.5rem; cursor: pointer; }
-        
-        .promo-badge {
-            background: #ff0000; color: white; padding: 5px 15px; border-radius: 10px;
-            font-weight: bold; font-size: 0.8rem; letter-spacing: 2px; text-transform: uppercase;
-            display: inline-block; margin-bottom: 20px; animation: pulse 2s infinite;
-        }
-        @keyframes pulse { 0% { transform: scale(1); } 50% { transform: scale(1.05); } 100% { transform: scale(1); } }
-
-        .price-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; margin-top: 20px; }
-        .price-card { background: #1a1a1a; padding: 25px; border-radius: 15px; border: 1px solid #333; position: relative; }
-        .price-card.featured { border: 2px solid var(--gold); transform: scale(1.05); background: #222; }
-        
-        .price-title { color: var(--gold); font-family: 'Cormorant Garamond'; font-size: 1.8rem; margin-bottom: 5px; }
-        .old-price { text-decoration: line-through; color: #666; font-size: 0.9rem; }
-        .price-amount { font-size: 2.5rem; font-weight: bold; color: #fff; margin: 5px 0 15px 0; }
-        .price-list { list-style: none; padding: 0; text-align: left; font-size: 0.9rem; color: #ccc; }
-        .price-list li { margin-bottom: 10px; border-bottom: 1px solid #333; padding-bottom: 5px; display: flex; align-items: center; }
-        .price-list i { color: var(--gold); margin-right: 10px; }
-
-    </style>
+    <link rel="stylesheet" href="css/main_style.css">
 </head>
 <body>
     <div id="curtain">
@@ -73,103 +16,75 @@
             <div class="ribbon-half ribbon-left"><span class="ribbon-text">ABRIR</span></div>
             <div class="ribbon-half ribbon-right"><span class="ribbon-text">VITRINA</span></div>
         </div>
-        <p style="margin-top: 40px; font-family: 'Cormorant Garamond'; color: var(--gold); font-style: italic;">Exclusividad en su máxima expresión</p>
     </div>
 
     <div id="main-content">
         <nav class="glass-nav">
-            <span style="font-family: 'Pinyon Script'; font-size: 2rem; color: var(--gold);">Temporada de Cerezas</span>
-            <i class="fas fa-gem" style="color: var(--gold);"></i>
+            <span style="font-family: 'Pinyon Script'; font-size: 2rem; color: #d4af37;">Temporada de Cerezas</span>
+            <div class="nav-icons">
+                <i class="fas fa-tags" onclick="togglePricing()" style="color: #d4af37; cursor:pointer; margin-right:20px;"></i>
+                <i class="fas fa-gem" style="color: #d4af37;"></i>
+            </div>
         </nav>
 
         <div class="showroom">
             <div class="card" onclick="location.href='ejemplos/flayer_lael/index.html'">
-                <img src="ejemplos/flayer_lael/assets/foto1.jpg" onerror="this.src='https://images.unsplash.com/photo-1519834785169-98be25ec3f84?auto=format&fit=crop&w=800&q=80'" class="card-img" style="filter: brightness(0.8) sepia(0.3);">
-                <div style="position: absolute; bottom: 30px; left: 30px;">
-                    <span style="background: var(--coral); color: #fff; padding: 5px 15px; border-radius: 20px; font-size: 0.7rem;">CAUSA NOBLE</span>
-                    <h2 style="font-family: 'Dancing Script'; font-size: 2.5rem; color: var(--gold); margin: 10px 0;">Rifa de Lael</h2>
+                <img src="ejemplos/flayer_lael/assets/foto1.jpg" onerror="this.src='https://images.unsplash.com/photo-1519834785169-98be25ec3f84?auto=format&fit=crop&w=800&q=80'" class="card-img">
+                <div class="card-info">
+                    <span class="tag coral">CAUSA NOBLE</span>
+                    <h2>Rifa de Lael</h2>
                     <p>Fase 2: $100 MXN</p>
                 </div>
             </div>
-            
-            <div class="card" onclick="location.href='ejemplos/boda_elegante/index.html'"><img src="https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=800&q=80" class="card-img"><div style="position: absolute; bottom: 30px; left: 30px;"><h2 style="color: var(--gold);">Bodas Elite</h2></div></div>
-            
-            <div class="card" onclick="location.href='ejemplos/villa_montana/index.html'"><img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?auto=format&fit=crop&w=800&q=80" class="card-img"><div style="position: absolute; bottom: 30px; left: 30px;"><h2 style="color: var(--gold);">Scrollytelling</h2></div></div>
-        </div>
-    </div>
 
-    <div class="btn-pricing" onclick="togglePricing()">
-        <i class="fas fa-tags"></i> OFERTA LANZAMIENTO
+            <div class="card" onclick="location.href='ejemplos/boda_elegante/index.html'">
+                <img src="https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=800&q=80" class="card-img">
+                <div class="card-info">
+                    <span class="tag cherry">BODAS ELITE</span>
+                    <h2>Sofía & Alejandro</h2>
+                </div>
+            </div>
+
+            <div class="card" onclick="location.href='ejemplos/xv_neon/index.html'">
+                <img src="https://images.unsplash.com/photo-1533174072545-7a4b6ad7a6c3?auto=format&fit=crop&w=800&q=80" class="card-img">
+                <div class="card-info">
+                    <span class="tag neon">XV AÑOS</span>
+                    <h2 style="color: #00ffff;">Neon Party</h2>
+                </div>
+            </div>
+
+            <div class="card" onclick="location.href='ejemplos/bautizo_nubes/index.html'">
+                <img src="https://images.unsplash.com/photo-1519689680058-324335c77eba?auto=format&fit=crop&w=800&q=80" class="card-img">
+                <div class="card-info">
+                    <span class="tag baby">BAUTIZOS</span>
+                    <h2>Lucas</h2>
+                </div>
+            </div>
+
+            <div class="card" onclick="location.href='ejemplos/villa_montana/index.html'">
+                <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?auto=format&fit=crop&w=800&q=80" class="card-img">
+                <div class="card-info">
+                    <span class="tag gold">SCROLLYTELLING</span>
+                    <h2>Villa Montaña</h2>
+                </div>
+            </div>
+        </div>
     </div>
 
     <div id="pricing-modal">
         <div class="pricing-content">
             <span class="close-modal" onclick="togglePricing()">&times;</span>
-            <div class="promo-badge">¡PRECIOS DE INTRODUCCIÓN!</div>
-            <h2 style="font-family: 'Pinyon Script'; font-size: 3rem; color: var(--gold); margin-top:0;">Paquetes Web</h2>
-            <p style="color: #ccc;">Aprovecha nuestras tarifas especiales por apertura.</p>
-            
+            <div class="promo-badge">OFERTA DE LANZAMIENTO</div>
+            <h2 style="font-family: 'Pinyon Script'; font-size: 3rem; color: #d4af37;">Nuestras Tarifas</h2>
             <div class="price-grid">
-                <div class="price-card">
-                    <div class="price-title">Pack Cereza</div>
-                    <div class="old-price">$950</div>
-                    <div class="price-amount">$499</div>
-                    <ul class="price-list">
-                        <li><i class="fas fa-check"></i> Invitación Web Animada</li>
-                        <li><i class="fas fa-check"></i> Cuenta Regresiva</li>
-                        <li><i class="fas fa-check"></i> Ubicación GPS (Waze/Maps)</li>
-                        <li><i class="fas fa-check"></i> Botón WhatsApp</li>
-                    </ul>
-                </div>
-                <div class="price-card featured">
-                    <div style="position:absolute; top:-10px; right: 20px; background:var(--gold); color:black; padding:2px 10px; font-size:0.7rem; font-weight:bold; border-radius:5px;">POPULAR</div>
-                    <div class="price-title">Pack Gold</div>
-                    <div class="old-price">$1,800</div>
-                    <div class="price-amount">$899</div>
-                    <ul class="price-list">
-                        <li><i class="fas fa-star"></i> Todo lo de Cereza +</li>
-                        <li><i class="fas fa-star"></i> Galería de Fotos (Hasta 10)</li>
-                        <li><i class="fas fa-star"></i> Confirmación de Asistencia</li>
-                        <li><i class="fas fa-star"></i> Música de Fondo</li>
-                    </ul>
-                </div>
-                <div class="price-card">
-                    <div class="price-title">Pack Elite</div>
-                    <div class="old-price">$3,500</div>
-                    <div class="price-amount">$1,999</div>
-                    <ul class="price-list">
-                        <li><i class="fas fa-crown"></i> Experiencia Scrollytelling</li>
-                        <li><i class="fas fa-crown"></i> Video Intro (Drone/Clip)</li>
-                        <li><i class="fas fa-crown"></i> Narrativa Inmersiva</li>
-                        <li><i class="fas fa-crown"></i> Dominio Personalizado</li>
-                    </ul>
-                </div>
+                <div class="price-card"><h3>Pack Cereza</h3><p class="old">$950</p><p class="now">$499</p></div>
+                <div class="price-card featured"><h3>Pack Gold</h3><p class="old">$1,800</p><p class="now">$899</p></div>
+                <div class="price-card"><h3>Pack Elite</h3><p class="old">$3,500</p><p class="now">$1,999</p></div>
             </div>
-            
-            <a href="https://wa.me/5219619702540?text=Hola,%20vi%20sus%20precios%20de%20lanzamiento%20y%20me%20interesa%20el%20paquete..." class="btn-pricing" style="position: relative; display: inline-block; bottom: auto; right: auto; margin-top: 30px; background: #fff; color: #000;">
-                APARTAR PRECIO AHORA
-            </a>
+            <a href="https://wa.me/5219619702540" class="btn-cta">SOLICITAR COTIZACIÓN</a>
         </div>
     </div>
 
-    <script>
-        function inaugurar() {
-            const tl = gsap.timeline();
-            tl.to("#curtain", { opacity: 0, duration: 1 }).set("#curtain", { display: "none" })
-              .set("#main-content", { display: "block" }).to("#main-content", { opacity: 1 })
-              .to(".card", { y: 0, opacity: 1, stagger: 0.2, ease: "back.out(1.7)" })
-              .set(".btn-pricing", { display: "block" });
-        }
-        
-        function togglePricing() {
-            const modal = document.getElementById('pricing-modal');
-            if (modal.style.display === "flex") {
-                gsap.to(modal, { opacity: 0, duration: 0.5, onComplete: () => modal.style.display = "none" });
-            } else {
-                modal.style.display = "flex";
-                gsap.to(modal, { opacity: 1, duration: 0.5 });
-            }
-        }
-    </script>
+    <script src="js/main_logic.js"></script>
 </body>
 </html>
