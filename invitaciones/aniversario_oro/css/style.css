@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Pinyon+Script&display=swap');
+
+:root {
+    --gold: #D4AF37;
+    --gold-light: #F9E076;
+    --gold-dark: #AA8C2C;
+    --black: #050505;
+    --paper: #111;
+}
+
+body, html {
+    margin: 0; padding: 0; width: 100%; height: 100%;
+    background-color: var(--black);
+    color: var(--gold-light);
+    font-family: 'Cormorant Garamond', serif;
+    overflow-x: hidden;
+}
+
+/* --- ESCENA DEL SOBRE (INTRO) --- */
+#intro-scene {
+    position: fixed; inset: 0; z-index: 9999;
+    background: radial-gradient(circle at center, #222 0%, #000 100%);
+    display: flex; justify-content: center; align-items: center;
+    perspective: 1500px;
+}
+
+.envelope-wrapper {
+    width: 350px; height: 250px; position: relative;
+    transform-style: preserve-3d; cursor: pointer;
+    transition: transform 0.5s;
+}
+.envelope-wrapper:hover { transform: scale(1.02); }
+
+.envelope-back {
+    position: absolute; width: 100%; height: 100%; background: #1a1a1a;
+    border: 2px solid var(--gold-dark); border-radius: 5px;
+}
+
+.card-preview {
+    position: absolute; top: 10px; left: 10px; right: 10px; bottom: 10px;
+    background: #fff; z-index: 5; transition: transform 1s cubic-bezier(0.4, 0, 0.2, 1);
+    display: flex; justify-content: center; align-items: center;
+    overflow: hidden;
+}
+.card-preview h1 {
+    font-family: 'Pinyon Script'; color: #000; font-size: 2.5rem; margin: 0;
+}
+
+/* Las solapas del sobre */
+.flap {
+    position: absolute; width: 100%; height: 100%; z-index: 10; pointer-events: none;
+}
+.flap.left {
+    clip-path: polygon(0 0, 50% 50%, 0 100%);
+    background: linear-gradient(135deg, #222, #111);
+}
+.flap.right {
+    clip-path: polygon(100% 0, 50% 50%, 100% 100%);
+    background: linear-gradient(-135deg, #222, #111);
+}
+.flap.bottom {
+    clip-path: polygon(0 100%, 50% 50%, 100% 100%);
+    background: linear-gradient(to top, #222, #1a1a1a);
+}
+.flap.top {
+    clip-path: polygon(0 0, 50% 50%, 100% 0);
+    background: linear-gradient(to bottom, #333, #222);
+    transform-origin: top; transition: transform 0.8s 0.2s; z-index: 12;
+    border-top: 1px solid var(--gold-dark);
+}
+
+/* El Sello de Lacre */
+.wax-seal {
+    position: absolute; top: 40%; left: 50%; transform: translate(-50%, -50%);
+    width: 60px; height: 60px; background: radial-gradient(circle, #800000, #500000);
+    border-radius: 50%; z-index: 20;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.5), inset 0 2px 5px rgba(255,255,255,0.2);
+    display: flex; justify-content: center; align-items: center;
+    border: 2px dashed #600000; pointer-events: auto; transition: 0.3s;
+}
+.wax-seal i { font-size: 1.5rem; color: #d4af37; text-shadow: 0 1px 2px rgba(0,0,0,0.5); }
+.wax-seal:hover { transform: translate(-50%, -50%) scale(1.1); box-shadow: 0 0 15px var(--gold); }
+
+/* Estados de animación del sobre */
+.envelope-wrapper.open .flap.top { transform: rotateX(180deg); z-index: 1; }
+.envelope-wrapper.open .wax-seal { opacity: 0; transform: scale(0); }
+.envelope-wrapper.open .card-preview { transform: translateY(-150px) scale(1.5); z-index: 15; }
+
+/* --- CONTENIDO PRINCIPAL (OCULTO AL INICIO) --- */
+#main-content {
+    display: none; opacity: 0; padding-bottom: 50px;
+}
+
+.hero-header {
+    height: 100vh; display: flex; flex-direction: column; justify-content: center; align-items: center;
+    text-align: center; border: 20px solid transparent;
+    border-image: url("https://www.transparenttextures.com/patterns/wood-pattern.png") 30 round;
+    position: relative;
+}
+.hero-header::before {
+    content: ''; position: absolute; inset: 20px; border: 2px solid var(--gold); pointer-events: none;
+}
+
+h1.names { font-family: 'Cinzel Decorative'; font-size: 4rem; color: var(--gold); margin: 0; text-shadow: 0 5px 15px rgba(0,0,0,0.8); }
+.golden-text { font-family: 'Pinyon Script'; color: var(--gold-light); font-size: 2rem; margin: 10px 0; }
+.divider { width: 150px; height: 2px; background: linear-gradient(to right, transparent, var(--gold), transparent); margin: 30px auto; }
+
+/* GALERÍA DE LUJO */
+.luxury-gallery {
+    display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; max-width: 1200px; margin: 50px auto; padding: 0 20px;
+}
+.frame {
+    position: relative; border: 5px solid #222; overflow: hidden; height: 400px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5); transition: 0.5s;
+}
+.frame img { width: 100%; height: 100%; object-fit: cover; filter: sepia(0.5) contrast(1.2); transition: 0.5s; }
+.frame:hover img { filter: sepia(0); transform: scale(1.1); }
+.frame::after {
+    content: ''; position: absolute; inset: 0; border: 1px solid var(--gold); pointer-events: none; opacity: 0.5;
+}
+
+/* HISTORIA */
+.story-section { padding: 80px 20px; text-align: center; max-width: 800px; margin: auto; }
+.story-text { font-size: 1.4rem; line-height: 1.8; color: #ddd; }
+.story-text span { font-family: 'Pinyon Script'; color: var(--gold); font-size: 2rem; }
+
+/* MAPA & RSVP */
+.rsvp-box {
+    background: #111; border: 1px solid var(--gold); padding: 50px;
+    max-width: 600px; margin: 50px auto; text-align: center; position: relative;
+}
+.rsvp-box::before {
+    content: 'RSVP'; position: absolute; top: -30px; left: 50%; transform: translateX(-50%);
+    background: var(--black); padding: 0 20px; font-family: 'Cinzel Decorative'; font-size: 2rem; color: var(--gold);
+}
+
+.btn-premium {
+    background: transparent; border: 1px solid var(--gold); color: var(--gold);
+    padding: 15px 40px; font-family: 'Cinzel Decorative'; font-size: 1.1rem; cursor: pointer;
+    transition: 0.4s; text-decoration: none; display: inline-block; margin-top: 20px;
+}
+.btn-premium:hover { background: var(--gold); color: #000; box-shadow: 0 0 20px rgba(212, 175, 55, 0.4); }
+
+@media (max-width: 768px) {
+    .envelope-wrapper { width: 300px; height: 200px; }
+    h1.names { font-size: 2.5rem; }
+    .luxury-gallery { grid-template-columns: 1fr; }
+}
