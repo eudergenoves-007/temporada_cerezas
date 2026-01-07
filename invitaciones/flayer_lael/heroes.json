@@ -1,0 +1,2892 @@
+[
+  {
+    "nombre": "Guillermo Matos E.",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6c43"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Alejandro Roblero",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6c39"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Valeria Josabet Gallegos",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6c3c"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Cindy Perez Chang",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6c3d"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Wilberth Otoniel Dzul Naal",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6c3e"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Alvaro Escamilla",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6c3f"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Ramón Espejo Reyes",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6c40"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Gabriel Pech E.",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6c41"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Veronica Elizabeth Chi Rosado",
+    "boletos": 2,
+    "tickets": [
+      "6954978d8fed15d0cd0d6c42",
+      "6954978d8fed15d0cd0d6c46"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Isabel Ramirez",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6c36"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Martin Guerrero Castañeda",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6c44"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Guillermo Urbina",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6c45"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Rodrigo Garcia T.",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6c47"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Diana Chan Aguilar",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6c48"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Mamá De ángela",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6c50"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Josh",
+    "boletos": 2,
+    "tickets": [
+      "6954978d8fed15d0cd0d6c55",
+      "6954978d8fed15d0cd0d6c5d"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Nathan",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6c56"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Cesar Alfonzo Jimez",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6c31"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Estrella De Los Angeles",
+    "boletos": 3,
+    "tickets": [
+      "6954978d8fed15d0cd0d6c2f",
+      "6954978d8fed15d0cd0d6c11",
+      "6954978d8fed15d0cd0d6bee"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Maria Isabel Santos",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6c2b"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Zaya Roblero",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6c25"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Juana Lopez Hernández",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6c17"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Marco Antonio Santos",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6c0b"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Juana Santos",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6c06"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Jose De Jesús",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6c05"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Karla Nallely Aguilar",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6c01"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Patricia Gonzales",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6bfc"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Yoana Lopez",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6bfa"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Joaquina Moralez",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6bf9"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Karen Jazmín González",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6bf8"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Angel Anabell Méndez",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6bf6"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Dalia Ramirez Vasquez",
+    "boletos": 6,
+    "tickets": [
+      "6954978d8fed15d0cd0d6c66",
+      "6954978d8fed15d0cd0d6c6c",
+      "6954978d8fed15d0cd0d6c6a",
+      "6954978d8fed15d0cd0d6c68",
+      "6954978d8fed15d0cd0d6c64",
+      "6954978d8fed15d0cd0d6c62"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Familia Flores Vazquez",
+    "boletos": 12,
+    "tickets": [
+      "6954978d8fed15d0cd0d6c75",
+      "6954978d8fed15d0cd0d6c74",
+      "6954978d8fed15d0cd0d6c73",
+      "6954978d8fed15d0cd0d6c72",
+      "6954978d8fed15d0cd0d6c71",
+      "6954978d8fed15d0cd0d6c70",
+      "6954978d8fed15d0cd0d6c6f",
+      "6954978d8fed15d0cd0d6c6e",
+      "6954978d8fed15d0cd0d6c6d",
+      "6954978d8fed15d0cd0d6c76",
+      "6954978d8fed15d0cd0d6c78",
+      "6954978d8fed15d0cd0d6c77"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Brenda Vasquez Grajales",
+    "boletos": 6,
+    "tickets": [
+      "6954978d8fed15d0cd0d6c6b",
+      "6954978d8fed15d0cd0d6c69",
+      "6954978d8fed15d0cd0d6c67",
+      "6954978d8fed15d0cd0d6c65",
+      "6954978d8fed15d0cd0d6c63",
+      "6954978d8fed15d0cd0d6c61"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Alejandra Patricia Castellanos",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6bf5"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Yesi",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6c60"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Angel",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6c5f"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Bryssa",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6c5e"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Héctor Molina",
+    "boletos": 2,
+    "tickets": [
+      "6954978d8fed15d0cd0d6c5c",
+      "6954978d8fed15d0cd0d6c5b"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Dulce",
+    "boletos": 2,
+    "tickets": [
+      "6954978d8fed15d0cd0d6c5a",
+      "6954978d8fed15d0cd0d6bf3"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Irma",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6c59"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Alya Ramírez",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6c58"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Carmelita",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6c57"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Albita Jacob Hernández",
+    "boletos": 5,
+    "tickets": [
+      "6954978d8fed15d0cd0d6b73",
+      "6954978d8fed15d0cd0d6b75",
+      "6954978d8fed15d0cd0d6b74",
+      "6954978d8fed15d0cd0d6b72",
+      "6954978d8fed15d0cd0d6b71"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Blanca J. Paredes",
+    "boletos": 5,
+    "tickets": [
+      "6954978d8fed15d0cd0d6b8f",
+      "6954978d8fed15d0cd0d6b8a",
+      "6954978d8fed15d0cd0d6ba0",
+      "6954978d8fed15d0cd0d6b9c",
+      "6954978d8fed15d0cd0d6b98"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Ing. Victor Hechegaray",
+    "boletos": 3,
+    "tickets": [
+      "6954978d8fed15d0cd0d6b88",
+      "6954978d8fed15d0cd0d6b82",
+      "6954978d8fed15d0cd0d6b92"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Esmirna Serrano Jacob",
+    "boletos": 3,
+    "tickets": [
+      "6954978d8fed15d0cd0d6b87",
+      "6954978d8fed15d0cd0d6b7e",
+      "6954978d8fed15d0cd0d6b76"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Jorge Luis Vázquez González",
+    "boletos": 2,
+    "tickets": [
+      "6954978d8fed15d0cd0d6b86",
+      "6954978d8fed15d0cd0d6b7d"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Magaly V",
+    "boletos": 3,
+    "tickets": [
+      "6954978d8fed15d0cd0d6b84",
+      "6954978d8fed15d0cd0d6b83",
+      "6954978d8fed15d0cd0d6b91"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Carlos Arias",
+    "boletos": 2,
+    "tickets": [
+      "6954978d8fed15d0cd0d6b81",
+      "6954978d8fed15d0cd0d6b9f"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Kevin Alvarez Hernandez",
+    "boletos": 2,
+    "tickets": [
+      "6954978d8fed15d0cd0d6b7f",
+      "6954978d8fed15d0cd0d6b93"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Yenick Alvarez Hernandez",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6b70"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Martha Kristel Mora",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6b54"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Juan E. ávila Sanchez",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6b4c"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Sara G. Díaz Vazquez",
+    "boletos": 4,
+    "tickets": [
+      "6954978d8fed15d0cd0d6b4b",
+      "6954978d8fed15d0cd0d6b44",
+      "6954978d8fed15d0cd0d6b24",
+      "6954978d8fed15d0cd0d6b22"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Norma P. Santiz Gomez",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6b4a"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Yolanda Velazquez Jacob",
+    "boletos": 3,
+    "tickets": [
+      "6954978d8fed15d0cd0d6b46",
+      "6954978d8fed15d0cd0d6b3d",
+      "6954978d8fed15d0cd0d6b3c"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Judith Zunún Morales",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6b43"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Allisson Roblero Zunún",
+    "boletos": 8,
+    "tickets": [
+      "6954978d8fed15d0cd0d6b42",
+      "6954978d8fed15d0cd0d6b23",
+      "6954978d8fed15d0cd0d6b36",
+      "6954978d8fed15d0cd0d6b34",
+      "6954978d8fed15d0cd0d6b2f",
+      "6954978d8fed15d0cd0d6b2a",
+      "6954978d8fed15d0cd0d6b28",
+      "6954978d8fed15d0cd0d6b25"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Celiflor Zunún Morales",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6b3b"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Adriana Santiz Lopez",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6b38"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Laura Alegría",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6ba2"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Martha Jazmin Jandete",
+    "boletos": 2,
+    "tickets": [
+      "6954978d8fed15d0cd0d6bf2",
+      "6954978d8fed15d0cd0d6bda"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Karla Nicole Montero",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6bf1"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Melani Carolina Montero",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6bef"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Jesus Vazquez De Paz",
+    "boletos": 4,
+    "tickets": [
+      "6954978d8fed15d0cd0d6bc2",
+      "6954978d8fed15d0cd0d6bc1",
+      "6954978d8fed15d0cd0d6bc0",
+      "6954978d8fed15d0cd0d6bbf"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Jose Daniel Perez Borrallas",
+    "boletos": 2,
+    "tickets": [
+      "6954978d8fed15d0cd0d6bbe",
+      "6954978d8fed15d0cd0d6bb2"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Ana Ley",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6bb5"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Veronica Jazmin Cruz",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6bae"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Patricia Alegría",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6bad"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Maria Eneyda Alvarez Villarreal",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6b9e"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Maria Eneyda Alvarez V",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6b9d"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Osiel Alvarez Villarreal",
+    "boletos": 2,
+    "tickets": [
+      "6954978d8fed15d0cd0d6b9b",
+      "6954978d8fed15d0cd0d6b95"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Jesus Emmanuel Alvarez Villarreal",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6b9a"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Alexis Morales",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6b99"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Ing. Hecheg.",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6b97"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Teresa Alvarez Villarreal",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6b96"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Sandra Karina Hernandez",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6b94"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Ernesto Ortiz Rivas",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6d2e"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Meyli S. Mateo Velazquez",
+    "boletos": 6,
+    "tickets": [
+      "6954978d8fed15d0cd0d6d3d",
+      "6954978d8fed15d0cd0d6d3c",
+      "6954978d8fed15d0cd0d6d3b",
+      "6954978d8fed15d0cd0d6d3a",
+      "6954978d8fed15d0cd0d6d39",
+      "6954978d8fed15d0cd0d6d38"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Claudia Pilar Lopez Pizabal",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6d37"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Oliver Escobar Hernandez",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6d36"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Vilza Perez Roblero",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6d35"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Laura Y. Mateo Velazquez",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6d34"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "José Manuel Arellano R.",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6d33"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Luisa Nayeli Ortiz Espi",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6d32"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Ethel J. Roblero Mateo",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6d31"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Nehemias Malia Pérez",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6d30"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Flavia Rivas Reynoso",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6d2f"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Maryoli X. Mateo Velazquez",
+    "boletos": 7,
+    "tickets": [
+      "6954978d8fed15d0cd0d6d3e",
+      "6954978d8fed15d0cd0d6d46",
+      "6954978d8fed15d0cd0d6d43",
+      "6954978d8fed15d0cd0d6d42",
+      "6954978d8fed15d0cd0d6d41",
+      "6954978d8fed15d0cd0d6d40",
+      "6954978d8fed15d0cd0d6d3f"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Alma Yadira Gonzalez Mateo",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6d2d"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Mario J. Roblero Bravo",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6d2c"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Sandy Alexia",
+    "boletos": 4,
+    "tickets": [
+      "6954978d8fed15d0cd0d6d2a",
+      "6954978d8fed15d0cd0d6d28",
+      "6954978d8fed15d0cd0d6d26",
+      "6954978d8fed15d0cd0d6d21"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Sonia Velazquez",
+    "boletos": 3,
+    "tickets": [
+      "6954978d8fed15d0cd0d6d24",
+      "6954978d8fed15d0cd0d6d22",
+      "6954978d8fed15d0cd0d6d20"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Ronay Ithiel",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6d23"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Mtra Lupita",
+    "boletos": 2,
+    "tickets": [
+      "6954978d8fed15d0cd0d6d13",
+      "6954978d8fed15d0cd0d6d0e"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Mtra Azucena",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6d12"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Mtra Karla",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6d11"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Mtra Deysi",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6d10"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Psico. Alfonso",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6d0f"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Isaac Hernandez Mateo",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6d4e"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Humberto Domínguez",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6f08"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Karla Gómez Flores",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6eaf"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Betzaida Marroquín Cabrera",
+    "boletos": 6,
+    "tickets": [
+      "6954978d8fed15d0cd0d6e6e",
+      "6954978d8fed15d0cd0d6e6b",
+      "6954978d8fed15d0cd0d6e68",
+      "6954978d8fed15d0cd0d6e66",
+      "6954978d8fed15d0cd0d6e64",
+      "6954978d8fed15d0cd0d6e63"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Sonia Gonzalez Molina",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6e6d"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Dra Denia Juárez Arroyo",
+    "boletos": 5,
+    "tickets": [
+      "6954978d8fed15d0cd0d6e6c",
+      "6954978d8fed15d0cd0d6e6a",
+      "6954978d8fed15d0cd0d6e69",
+      "6954978d8fed15d0cd0d6e67",
+      "6954978d8fed15d0cd0d6e65"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Yuni N. Mateo Velazquez",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6d4f"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Nahum J. Mateo Velazquez",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6d4d"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Rodrigo Ramos Mateo",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6d4c"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Reyli Diaz Pérez",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6d4b"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Ithan G. Roblero Mateo",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6d4a"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Rafael R. Mateo Velazquez",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6d49"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Asher G. Mateo Velazquez",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6d48"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Harvey E. Mateo Velazquez",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6d47"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Thiago R. Mateo Silva",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6d45"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Meyli Saylin Mateo Velazquez",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6d44"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Hugo Villatoro",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6cb5"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Nely",
+    "boletos": 12,
+    "tickets": [
+      "6954978d8fed15d0cd0d6cc4",
+      "6954978d8fed15d0cd0d6cc3",
+      "6954978d8fed15d0cd0d6cc2",
+      "6954978d8fed15d0cd0d6cc1",
+      "6954978d8fed15d0cd0d6cc5",
+      "6954978d8fed15d0cd0d6ccc",
+      "6954978d8fed15d0cd0d6ccb",
+      "6954978d8fed15d0cd0d6cca",
+      "6954978d8fed15d0cd0d6cc9",
+      "6954978d8fed15d0cd0d6cc8",
+      "6954978d8fed15d0cd0d6cc7",
+      "6954978d8fed15d0cd0d6cc6"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Daniel",
+    "boletos": 2,
+    "tickets": [
+      "6954978d8fed15d0cd0d6cc0",
+      "6954978d8fed15d0cd0d6cbf"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Edwin Stany",
+    "boletos": 2,
+    "tickets": [
+      "6954978d8fed15d0cd0d6cbe",
+      "6954978d8fed15d0cd0d6cbb"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Josari",
+    "boletos": 2,
+    "tickets": [
+      "6954978d8fed15d0cd0d6cbd",
+      "6954978d8fed15d0cd0d6cb7"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "José Alberto",
+    "boletos": 2,
+    "tickets": [
+      "6954978d8fed15d0cd0d6cbc",
+      "6954978d8fed15d0cd0d6cb9"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Adrián Tabasco",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6cba"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Magdiel",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6cb8"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Ivan",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6cb6"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Yeri De Jesús Soriano Arévalo",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6ca8"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Sonia Edith Arévalo Flores",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6ca3"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Cristopher Soriano Arévalo",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6ca2"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Joel Soriano Arévalo",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6c9d"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Adán Gordillo Carbajal",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6c9b"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Yissela Belen Gordillo Villatoro",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6c98"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Jonathan Gallegos García",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6c88"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Ana Gabriela Roblero Velazquez",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6c86"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Rebeca Lazos",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6c82"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Dulce Belén Chanona",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6c80"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Violeta Vázquez",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6c7d"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Dalia Grajales",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6c7c"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Carolina Chanona Vázquez",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6c7a"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Jesús ángel Montiel",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6cea"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Mtra Nelly",
+    "boletos": 2,
+    "tickets": [
+      "6954978d8fed15d0cd0d6d0d",
+      "6954978d8fed15d0cd0d6d0b"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Mtro Brayan",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6d0c"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Maestra Nelly",
+    "boletos": 2,
+    "tickets": [
+      "6954978d8fed15d0cd0d6d0a",
+      "6954978d8fed15d0cd0d6d08"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Mtra Alondra",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6d09"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Margarita Jimenez Gonzalez",
+    "boletos": 2,
+    "tickets": [
+      "6954978d8fed15d0cd0d6d07",
+      "6954978d8fed15d0cd0d6cfc"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Jesus De Los Santos",
+    "boletos": 2,
+    "tickets": [
+      "6954978d8fed15d0cd0d6d05",
+      "6954978d8fed15d0cd0d6d03"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Claudia Vazquez",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6d01"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Dra Laura V Castañon Arroyo",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6d00"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Dra Laura Castañon Arroyo",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6cff"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Marco Antonio Vázquez",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6cf4"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Vianey Castillo Vázquez",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6cf2"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Victor Zunún Roblero",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6b37"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "David Vázquez",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6ce6"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Pablo Vázquez",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6ce4"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Josué - Brenda V",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6cd6"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Eliza Bistrain",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6cd5"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Angel Humberto Barrientos",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6cd2"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Alya Dayani Ramirez Vasquez",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6cd1"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Profe Chusito",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6cce"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Silvia Aranda",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6ccd"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Sebastian Martinez",
+    "boletos": 24,
+    "tickets": [
+      "6954978d8fed15d0cd0d6a24",
+      "6954978d8fed15d0cd0d6a1c",
+      "6954978d8fed15d0cd0d6a1d",
+      "6954978d8fed15d0cd0d6a1e",
+      "6954978d8fed15d0cd0d6a1f",
+      "6954978d8fed15d0cd0d6a20",
+      "6954978d8fed15d0cd0d6a21",
+      "6954978d8fed15d0cd0d6a22",
+      "6954978d8fed15d0cd0d6a23",
+      "6954978d8fed15d0cd0d6a1b",
+      "6954978d8fed15d0cd0d6a25",
+      "6954978d8fed15d0cd0d6a26",
+      "6954978d8fed15d0cd0d6a27",
+      "6954978d8fed15d0cd0d6a28",
+      "6954978d8fed15d0cd0d6a29",
+      "6954978d8fed15d0cd0d6a2a",
+      "6954978d8fed15d0cd0d6a2b",
+      "6954978d8fed15d0cd0d6a2c",
+      "6954978d8fed15d0cd0d6a1a",
+      "6954978d8fed15d0cd0d6a19",
+      "6954978d8fed15d0cd0d6a18",
+      "6954978d8fed15d0cd0d6a17",
+      "6954978d8fed15d0cd0d6a16",
+      "6954978d8fed15d0cd0d6a2d"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Alisson Roblero Zunun",
+    "boletos": 13,
+    "tickets": [
+      "6954978d8fed15d0cd0d6a15",
+      "6954978d8fed15d0cd0d6a6a",
+      "6954978d8fed15d0cd0d6a9d",
+      "6954978d8fed15d0cd0d6a7b",
+      "6954978d8fed15d0cd0d6a62",
+      "6954978d8fed15d0cd0d6a4a",
+      "6954978d8fed15d0cd0d6a42",
+      "6954978d8fed15d0cd0d6a33",
+      "6954978d8fed15d0cd0d69dc",
+      "6954978d8fed15d0cd0d69f2",
+      "6954978d8fed15d0cd0d69ed",
+      "6954978d8fed15d0cd0d6aad",
+      "6954978d8fed15d0cd0d69c2"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Isabel Villatoro",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6a13"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Alicia Sanchez Matias",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6a12"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Kevin Moises Morales Luego",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6a11"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Tania Vazquez Toala",
+    "boletos": 26,
+    "tickets": [
+      "6954978d8fed15d0cd0d6a10",
+      "6954978d8fed15d0cd0d6a0f",
+      "6954978d8fed15d0cd0d6a0c",
+      "6954978d8fed15d0cd0d6a0b",
+      "6954978d8fed15d0cd0d6a0a",
+      "6954978d8fed15d0cd0d69f9",
+      "6954978d8fed15d0cd0d6a09",
+      "6954978d8fed15d0cd0d6a08",
+      "6954978d8fed15d0cd0d6a07",
+      "6954978d8fed15d0cd0d6a06",
+      "6954978d8fed15d0cd0d6a05",
+      "6954978d8fed15d0cd0d6a01",
+      "6954978d8fed15d0cd0d6a00",
+      "6954978d8fed15d0cd0d69ff",
+      "6954978d8fed15d0cd0d69fe",
+      "6954978d8fed15d0cd0d69fd",
+      "6954978d8fed15d0cd0d69fc",
+      "6954978d8fed15d0cd0d69fb",
+      "6954978d8fed15d0cd0d69f8",
+      "6954978d8fed15d0cd0d69f7",
+      "6954978d8fed15d0cd0d69f5",
+      "6954978d8fed15d0cd0d69f3",
+      "6954978d8fed15d0cd0d69f1",
+      "6954978d8fed15d0cd0d69ee",
+      "6954978d8fed15d0cd0d69ec",
+      "6954978d8fed15d0cd0d69eb"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Kevin M. Montes Lugo",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6a0e"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Hector Perez Nango",
+    "boletos": 3,
+    "tickets": [
+      "6954978d8fed15d0cd0d6a0d",
+      "6954978d8fed15d0cd0d6a7c",
+      "6954978d8fed15d0cd0d6a35"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Sandra Luz Roblero",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6a9a"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Eliut Morales Vazquez",
+    "boletos": 2,
+    "tickets": [
+      "6954978d8fed15d0cd0d6a91",
+      "6954978d8fed15d0cd0d6a7d"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Mariana Leon",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6a8c"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Alisson Roblero Perez",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6a86"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Alissia Sanchez Matias",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6a76"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Sofia Elizabeth Flores",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6a75"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Alisson Roblero",
+    "boletos": 2,
+    "tickets": [
+      "6954978d8fed15d0cd0d6a70",
+      "6954978d8fed15d0cd0d6a56"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Mitzi De La Cruz Pineda",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6a6f"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Ceci Garcia",
+    "boletos": 2,
+    "tickets": [
+      "6954978d8fed15d0cd0d6a6e",
+      "6954978d8fed15d0cd0d6a65"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Eliut Moises Morales",
+    "boletos": 2,
+    "tickets": [
+      "6954978d8fed15d0cd0d6a6d",
+      "6954978d8fed15d0cd0d69d9"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Jaris Gomez Cruz",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6a6c"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Sofia Gualupe Espinoza",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6a67"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Eliut Moises Morales Vazquez",
+    "boletos": 2,
+    "tickets": [
+      "6954978d8fed15d0cd0d6a66",
+      "6954978d8fed15d0cd0d6a57"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Sara Villatoro",
+    "boletos": 2,
+    "tickets": [
+      "6954978d8fed15d0cd0d6a5d",
+      "6954978d8fed15d0cd0d6a31"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Aylen Guadalupe Espinoza Chanon",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6a53"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Yuli Mandujano",
+    "boletos": 5,
+    "tickets": [
+      "6954978d8fed15d0cd0d6a4e",
+      "6954978d8fed15d0cd0d69e6",
+      "6954978d8fed15d0cd0d6a04",
+      "6954978d8fed15d0cd0d69fa",
+      "6954978d8fed15d0cd0d69f0"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Abraham Eduardo Goez Espinoza",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d69d3"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Anabey Guillén Pacheco",
+    "boletos": 2,
+    "tickets": [
+      "6954978d8fed15d0cd0d69e8",
+      "6954978d8fed15d0cd0d69ea"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Antonio Martinez",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d69e7"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Arminda",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d69e4"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Lisbeth Molina Solis",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d69e2"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Maybeth Martinez",
+    "boletos": 4,
+    "tickets": [
+      "6954978d8fed15d0cd0d69e0",
+      "6954978d8fed15d0cd0d69de",
+      "6954978d8fed15d0cd0d69c9",
+      "6954978d8fed15d0cd0d69c6"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Jaris Cruz Gómez",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d69db"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Kevin Moises Montes Lugo",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d69da"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Leticia Villanueva",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d69d8"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Elena Vazquez",
+    "boletos": 2,
+    "tickets": [
+      "6954978d8fed15d0cd0d69d7",
+      "6954978d8fed15d0cd0d69e9"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Gabriel Mazariegos",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d69d6"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Gael Rodriguez Samayoa",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d69d4"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Anabey Guillen Pacheco",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d69d2"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Alejandro Tello",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d69d1"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Maria Saira Sanchez Santiago",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d69d0"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Fany Lopez Pacheco",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d69cf"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Dalia Molina Perez",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d69cd"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Luis Arturo",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d69cc"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Arik Guillen Molina",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d69cb"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Marta Cristel Mora Gonzales",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d69ca"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Euder Fabricio Genovez Dominguez",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d69c8"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Michelle Guillen Molina",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d69c7"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "David Trujillo",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d69c5"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Maricarmen Tello",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d69c4"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Yuri Alvarez",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d69c3"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Gloria Mejia Hernandez",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6a03"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Diana Valeria Reyes Santiz",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6a9f"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Lizveth Molina Solis",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d69f6"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "José Daniel García Valenzuela",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d69f4"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Alexander Samayoa Salas",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d69ef"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Inge Polo",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6afc"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Ismael Rodríguez",
+    "boletos": 4,
+    "tickets": [
+      "6954978d8fed15d0cd0d6b11",
+      "6954978d8fed15d0cd0d6b06",
+      "6954978d8fed15d0cd0d6b1c",
+      "6954978d8fed15d0cd0d6b18"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Andrea Jacob",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6b10"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Carolina Cáceres",
+    "boletos": 2,
+    "tickets": [
+      "6954978d8fed15d0cd0d6b0f",
+      "6954978d8fed15d0cd0d6ade"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Fredy Mayorga",
+    "boletos": 2,
+    "tickets": [
+      "6954978d8fed15d0cd0d6b0c",
+      "6954978d8fed15d0cd0d6b1a"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Angeles Monte",
+    "boletos": 3,
+    "tickets": [
+      "6954978d8fed15d0cd0d6b0b",
+      "6954978d8fed15d0cd0d6b02",
+      "6954978d8fed15d0cd0d6b13"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Josué David Jacob",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6b08"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Adriana Gómez",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6b05"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Euder Fabricio Genovez Domínguez",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6b04"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Liliana Tkd",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6b03"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Vianney Getsemani",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6b01"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Alexa",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6b00"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "José Tkd",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6aff"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "José Hernández",
+    "boletos": 2,
+    "tickets": [
+      "6954978d8fed15d0cd0d6afd",
+      "6954978d8fed15d0cd0d6ada"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Sarai Ojeda",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6b12"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "José Maria Cardenas",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6afb"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Evan Mendoza",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6afa"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Yaremi García",
+    "boletos": 2,
+    "tickets": [
+      "6954978d8fed15d0cd0d6af9",
+      "6954978d8fed15d0cd0d6aec"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Paty Mayorga",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6af8"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Agustín Alcudia",
+    "boletos": 2,
+    "tickets": [
+      "6954978d8fed15d0cd0d6af7",
+      "6954978d8fed15d0cd0d6ae8"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Anita Méndez Kumatz",
+    "boletos": 4,
+    "tickets": [
+      "6954978d8fed15d0cd0d6af6",
+      "6954978d8fed15d0cd0d6aed",
+      "6954978d8fed15d0cd0d6aca",
+      "6954978d8fed15d0cd0d6ac8"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Ramiro Soberano",
+    "boletos": 2,
+    "tickets": [
+      "6954978d8fed15d0cd0d6af5",
+      "6954978d8fed15d0cd0d6ad3"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Claudia Gordillo",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6af4"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Miriam Lievano",
+    "boletos": 2,
+    "tickets": [
+      "6954978d8fed15d0cd0d6af3",
+      "6954978d8fed15d0cd0d6ae1"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Javier Omar Reyes",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6af2"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Gabriela Camacho",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6af1"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Lupita Cáceres",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6af0"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Concepción Gutiérrez",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6aef"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Adriana Gómez Espinoza",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6aee"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Caleb Morales Zunún",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6b35"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Julián Coutiño Mijangos",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6b33"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Eliud Moises Morales Vazquez",
+    "boletos": 2,
+    "tickets": [
+      "6954978d8fed15d0cd0d6b32",
+      "6954978d8fed15d0cd0d6b21"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Gelmi Maria May Mex",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6b2d"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Martha E. Villanueva Dominguez",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6b2b"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Maria De Jesus Cruz Rizo",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6b29"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Allisson Roblero Zunun",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6b27"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Kevin Moises Morales Lugo",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6b26"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Arminda Gómez Velazquez",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6b20"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Doris (esposo Galán)",
+    "boletos": 4,
+    "tickets": [
+      "6954978d8fed15d0cd0d6b1f",
+      "6954978d8fed15d0cd0d6b1b",
+      "6954978d8fed15d0cd0d6b17",
+      "6954978d8fed15d0cd0d6b14"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Alex Jacob",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6b1e"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Angeles Montes",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6b1d"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Jacobo Getsemani",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6b19"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Marcela Getsemani",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6b16"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Lupita Kumatz",
+    "boletos": 2,
+    "tickets": [
+      "6954978d8fed15d0cd0d6abc",
+      "6954978d8fed15d0cd0d6acb"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Iris García",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6ac9"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "César Pérez Brindis",
+    "boletos": 2,
+    "tickets": [
+      "6954978d8fed15d0cd0d6ac7",
+      "6954978d8fed15d0cd0d6ace"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Keily Bravo",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6ac6"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Eithan Daniel Jiménez",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6ac5"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Alix Diaz",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6ac4"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Paty Canales",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6ac3"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Francisco Velazco",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6ac2"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Carolina Dcn",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6ac1"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Rebeca Ruiz Getsemani",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6ac0"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Claudia Zoer Kumatz",
+    "boletos": 2,
+    "tickets": [
+      "6954978d8fed15d0cd0d6abf",
+      "6954978d8fed15d0cd0d6ad2"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Miranda Mayorga",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6abe"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Claudia Rodríguez Kumatz",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6abd"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Fernanda Hidalgo",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6acc"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Rosario Kumatz",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6abb"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Adna Laparra",
+    "boletos": 10,
+    "tickets": [
+      "6954978d8fed15d0cd0d6aba",
+      "6954978d8fed15d0cd0d6ab8",
+      "6954978d8fed15d0cd0d6ab7",
+      "6954978d8fed15d0cd0d6ab6",
+      "6954978d8fed15d0cd0d6ab5",
+      "6954978d8fed15d0cd0d6ab4",
+      "6954978d8fed15d0cd0d6ab3",
+      "6954978d8fed15d0cd0d6ab2",
+      "6954978d8fed15d0cd0d6ab0",
+      "6954978d8fed15d0cd0d6aaf"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Héctor Iván Hernández",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6ab9"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Claudia Kumatz",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6ab1"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Mitzi De La Cruz",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6aac"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Fany Román",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6adc"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Nancy Gutiérrez",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6aeb"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Mario Argüelles",
+    "boletos": 2,
+    "tickets": [
+      "6954978d8fed15d0cd0d6aea",
+      "6954978d8fed15d0cd0d6ae0"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Francisco Hernández",
+    "boletos": 2,
+    "tickets": [
+      "6954978d8fed15d0cd0d6ae9",
+      "6954978d8fed15d0cd0d6ad5"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Claudia Vázquez",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6ae7"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Gildardo González",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6ae6"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Kary 77 Mty",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6ae5"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Erika Castañeda",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6ae4"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Roberto Zoma",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6ae3"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Sofía Mendoza",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6ae2"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Luis Vázquez",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6adf"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Gio Farrera",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6add"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Eduardo González",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6adb"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Jesús Alejandro Aquino De La Cruz",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6ad9"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Dianey Argüello",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6ad8"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Arturo Lazos",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6ad7"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Adriana Elizabeth",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6ad6"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Pablo Velazco",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6ad4"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Mónica Núñez",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6ad1"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Vicente Moguel",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6ad0"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Ma Angela Cabrera",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6acf"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  },
+  {
+    "nombre": "Ignacio Hernández",
+    "boletos": 1,
+    "tickets": [
+      "6954978d8fed15d0cd0d6acd"
+    ],
+    "esGanador": false,
+    "clase": "normal-card"
+  }
+]

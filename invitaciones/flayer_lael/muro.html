@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Muro de Héroes - Lael</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;800&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            /* Fondo más oscuro/profundo para resaltar los globos brillantes */
+            --bg-gradient: radial-gradient(circle at center, #f3f4f6 0%, #d1d5db 100%);
+            --card-glass: rgba(255, 255, 255, 0.95);
+        }
+
+        body {
+            margin: 0; padding: 0;
+            background: var(--bg-gradient);
+            font-family: 'Outfit', sans-serif;
+            overflow: hidden;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            align-items: center;
+        }
+
+        /* --- CAPA DE FONDO --- */
+        #stage-background {
+            position: absolute; inset: 0;
+            z-index: 0;
+            /* Patrón sutil para dar textura a la pared del fondo */
+            background-image: 
+                linear-gradient(rgba(255, 255, 255, 0.5) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(255, 255, 255, 0.5) 1px, transparent 1px);
+            background-size: 50px 50px;
+            opacity: 0.3;
+        }
+
+        /* --- ESCENARIO DE GLOBOS --- */
+        #hearts-stage {
+            position: absolute; top: 0; left: 0; width: 100%; height: 100%;
+            pointer-events: none; 
+            z-index: 1; /* Globos sobre el fondo */
+        }
+
+        /* --- EL CRISTAL (GLASS PANE EFFECT) --- */
+        .glass-pane {
+            position: absolute; inset: 0;
+            z-index: 5; /* Encima de los globos */
+            pointer-events: none; /* Dejar pasar los clicks a los globos */
+            
+            /* Brillo de reflejo diagonal (como una ventana) */
+            background: linear-gradient(
+                135deg, 
+                rgba(255,255,255,0.4) 0%, 
+                rgba(255,255,255,0.0) 40%, 
+                rgba(255,255,255,0.0) 60%, 
+                rgba(255,255,255,0.1) 100%
+            );
+            
+            /* Sombra interna para dar sensación de marco */
+            box-shadow: inset 0 0 80px rgba(0,0,0,0.05);
+            border: 10px solid rgba(255,255,255,0.3);
+        }
+
+        /* --- UI SUPERIOR (TARJETA) --- */
+        .bottom-card {
+            position: relative; z-index: 10; /* Encima del cristal */
+            background: var(--card-glass);
+            backdrop-filter: blur(15px);
+            width: 100%; max-width: 550px;
+            padding: 2.5rem 2rem;
+            border-radius: 40px 40px 0 0;
+            text-align: center;
+            box-shadow: 0 -10px 40px rgba(0,0,0,0.1);
+            border-top: 1px solid rgba(255,255,255,1);
+            animation: slideUp 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
+        }
+
+        h1 {
+            color: #1a1a1a; font-weight: 800; font-size: 2.2rem;
+            margin: 0 0 10px 0; letter-spacing: -1px;
+        }
+
+        .gradient-text {
+            background: linear-gradient(45deg, #FF416C, #FF4B2B);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            font-weight: 900;
+        }
+
+        p {
+            color: #555; font-size: 1.15rem; line-height: 1.6;
+            margin-bottom: 2rem; font-weight: 500;
+        }
+
+        .btn-back {
+            display: inline-flex; align-items: center; gap: 10px;
+            text-decoration: none;
+            background: #1a1a1a; color: white;
+            padding: 14px 35px; border-radius: 50px;
+            font-weight: 700; font-size: 1rem;
+            transition: all 0.3s;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+        }
+
+        .btn-back:hover {
+            transform: translateY(-3px) scale(1.02);
+            background: linear-gradient(45deg, #FF416C, #FF4B2B);
+            box-shadow: 0 15px 30px rgba(255, 65, 108, 0.4);
+        }
+
+        /* --- GLOBOS FLOTANTES --- */
+        .heart-unit {
+            position: absolute; bottom: -150px;
+            display: flex; flex-direction: column; align-items: center;
+            pointer-events: auto; cursor: pointer;
+            will-change: transform;
+            /* Transición suave para cuando hacemos hover */
+            transition: filter 0.3s;
+        }
+        
+        /* Al pasar mouse/dedo, brilla más (está "detrás" del cristal, así que brilla difuso) */
+        .heart-unit:hover { filter: brightness(1.2); }
+
+        @keyframes floatUpSway {
+            0% { transform: translateY(0) translateX(0) rotate(0deg) scale(0.8); opacity: 0; }
+            10% { opacity: 1; }
+            25% { transform: translateY(-25vh) translateX(20px) rotate(5deg) scale(1); }
+            50% { transform: translateY(-50vh) translateX(-20px) rotate(-5deg) scale(1); }
+            75% { transform: translateY(-75vh) translateX(20px) rotate(5deg) scale(1); }
+            100% { transform: translateY(-110vh) translateX(0) rotate(0deg) scale(0.8); opacity: 0; }
+        }
+
+        /* --- EFECTOS DE EXPLOSIÓN Y CONFETI --- */
+        @keyframes popScale {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.4); }
+            100% { transform: scale(0); opacity: 0; }
+        }
+
+        /* Partícula de confeti individual */
+        .confetti-piece {
+            position: absolute;
+            width: 8px; height: 8px;
+            border-radius: 50%;
+            pointer-events: none;
+            z-index: 6; /* Confeti sale DELANTE del cristal para efecto 3D */
+        }
+
+        @keyframes confettiBang {
+            0% { transform: translate(0, 0) scale(1); opacity: 1; }
+            100% { transform: translate(var(--tx), var(--ty)) scale(0); opacity: 0; }
+        }
+
+        .heart-icon-svg {
+            width: 100%; height: auto;
+            /* Sombra fuerte para simular globo 3D */
+            filter: drop-shadow(0 10px 15px rgba(0,0,0,0.15));
+        }
+
+        .hero-badge {
+            background: rgba(255,255,255,0.9); padding: 5px 12px; border-radius: 10px;
+            font-size: 0.85rem; font-weight: 700; color: #333;
+            margin-top: -15px; white-space: nowrap;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+
+        @keyframes slideUp { from { transform: translateY(100%); } to { transform: translateY(0); } }
+
+        .counter-badge {
+            position: fixed; top: 20px; right: 20px;
+            background: rgba(255,255,255,0.9); backdrop-filter: blur(10px);
+            padding: 8px 16px; border-radius: 30px;
+            font-size: 0.9rem; font-weight: 800; color: #1a1a1a;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            z-index: 20; /* Encima de todo */
+        }
+    </style>
+</head>
+<body>
+
+    <div class="counter-badge">🏆 <span id="count">0</span> Héroes</div>
+    
+    <div id="stage-background"></div>
+
+    <div id="hearts-stage"></div>
+
+    <div class="glass-pane"></div>
+
+    <div class="bottom-card">
+        <h1>Muro de Héroes</h1>
+        <p>Gracias a ustedes, el sueño de <span class="gradient-text">Lael</span> está más cerca. Toca un globo para celebrar.</p>
+        <a href="index.html" class="btn-back">
+            <span>↩</span> Volver a la Invitación
+        </a>
+    </div>
+
+    <script>
+        const COLORS = [
+            { fill: '#FF416C', shadow: 'rgba(255, 65, 108, 0.4)' }, // Ruby
+            { fill: '#8E2DE2', shadow: 'rgba(142, 45, 226, 0.4)' }, // Amethyst
+            { fill: '#F2C94C', shadow: 'rgba(242, 201, 76, 0.4)' }, // Gold
+            { fill: '#00b09b', shadow: 'rgba(0, 176, 155, 0.4)' },  // Emerald
+            { fill: '#2F80ED', shadow: 'rgba(47, 128, 237, 0.4)' }  // Sapphire
+        ];
+
+        // Path del corazón redondeado (globo)
+        const HEART_PATH = "M23.6,0c-3.4,0-6.3,2.7-7.6,5.6C14.7,2.7,11.8,0,8.4,0C3.8,0,0,3.8,0,8.4c0,9.4,9.5,11.9,16,21.2c6.1-9.3,16-11.8,16-21.2C32,3.8,28.2,0,23.6,0z";
+        let heroes = [];
+        const stage = document.getElementById('hearts-stage');
+
+        async function init() {
+            try {
+                // Cache busting para datos frescos
+                const res = await fetch('heroes.json?v=' + Date.now());
+                heroes = await res.json();
+                document.getElementById('count').innerText = heroes.length;
+                startFlow();
+            } catch (e) {
+                console.error("Error", e);
+                heroes = Array(15).fill({nombre: "Héroe Anónimo"});
+                startFlow();
+            }
+        }
+
+        function spawnConfetti(x, y, color) {
+            // Generar 12 partículas de confeti
+            for (let i = 0; i < 12; i++) {
+                const confeti = document.createElement('div');
+                confeti.className = 'confetti-piece';
+                confeti.style.left = x + 'px';
+                confeti.style.top = y + 'px';
+                confeti.style.backgroundColor = color;
+                
+                // Dirección aleatoria de explosión
+                const angle = Math.random() * 360;
+                const velocity = Math.random() * 80 + 40; // Distancia de vuelo
+                const tx = Math.cos(angle * Math.PI / 180) * velocity;
+                const ty = Math.sin(angle * Math.PI / 180) * velocity;
+
+                // Pasar variables a CSS
+                confeti.style.setProperty('--tx', `${tx}px`);
+                confeti.style.setProperty('--ty', `${ty}px`);
+                
+                confeti.style.animation = `confettiBang 0.6s ease-out forwards`;
+                
+                document.body.appendChild(confeti);
+                
+                // Limpiar memoria rápido
+                setTimeout(() => confeti.remove(), 600);
+            }
+        }
+
+        function createHeart() {
+            if (!heroes.length) return;
+            
+            const data = heroes[Math.floor(Math.random() * heroes.length)];
+            const theme = COLORS[Math.floor(Math.random() * COLORS.length)];
+            const unit = document.createElement('div');
+            
+            unit.className = 'heart-unit';
+            
+            // Variación de tamaño para profundidad
+            const size = Math.random() * 0.6 + 0.9; 
+            unit.style.width = (65 * size) + 'px';
+            unit.style.zIndex = Math.floor(size * 10);
+            
+            // Movimiento suave y lento
+            const duration = Math.random() * 8 + 10;
+            unit.style.left = (Math.random() * 90 + 5) + '%';
+            unit.style.animation = `floatUpSway ${duration}s linear forwards`;
+
+            unit.innerHTML = `
+                <svg class="heart-icon-svg" viewBox="0 0 32 29.6">
+                    <path d="${HEART_PATH}" fill="${theme.fill}"/>
+                </svg>
+                <div class="hero-badge" style="color: ${theme.fill}">
+                    ${data.nombre}
+                </div>
+            `;
+
+            // INTERACCIÓN: Click -> Pop -> Confeti
+            unit.addEventListener('click', (e) => {
+                // Obtener coordenadas del click para el confeti
+                const rect = unit.getBoundingClientRect();
+                const centerX = rect.left + rect.width / 2;
+                const centerY = rect.top + rect.height / 2;
+
+                // Animación CSS del globo
+                unit.style.animation = 'popScale 0.2s ease-out forwards';
+                
+                // Disparar confeti
+                spawnConfetti(centerX, centerY, theme.fill);
+                
+                // Vibración táctil si el navegador soporta
+                if (navigator.vibrate) navigator.vibrate(50);
+
+                setTimeout(() => unit.remove(), 200);
+            });
+
+            stage.appendChild(unit);
+            setTimeout(() => { if(unit.parentNode) unit.remove(); }, duration * 1000);
+        }
+
+        function startFlow() {
+            for(let i=0; i<12; i++) setTimeout(createHeart, i * 300);
+            setInterval(createHeart, 600);
+        }
+
+        init();
+    </script>
+</body>
+</html>
